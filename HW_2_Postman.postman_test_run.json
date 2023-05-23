@@ -1,0 +1,381 @@
+{
+	"id": "bf1abc5d-b7b8-417f-ab31-a3b938d5c715",
+	"name": "HW_2_Postman",
+	"timestamp": "2023-05-23T17:50:17.421Z",
+	"collection_id": "24660068-089e1ccf-fa97-446b-b126-34fab7588cfd",
+	"folder_id": 0,
+	"environment_id": "24660068-6f7e4909-4ec5-4556-a5c5-15772dbe22f6",
+	"totalPass": 28,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-23T17:50:15.962Z",
+	"totalFail": 11,
+	"results": [
+		{
+			"id": "6fa387c6-e39a-4acb-84ac-7edca2f65fbb",
+			"name": "first",
+			"url": "http://162.55.220.72:5006/first",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body should contain correct string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body should contain correct string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				132
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body should contain correct string": false
+				}
+			]
+		},
+		{
+			"id": "ef99dda3-21ae-495f-8017-be80fd4146fc",
+			"name": "user_info_3",
+			"url": "http://162.55.220.72:5006/user_info_3",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check that the name in the response is equal to the name in request (manual enter)": true,
+				"Check that the age in the response is equal to the age in request (manual enter)": false,
+				"Check that the salary in the response is equal to the salary in request(manual enter)": true,
+				"Check that the name in the response is equal to the name in request": true,
+				"Check that the age in the response is equal to the age in request": true,
+				"Check that the salary in the response is equal to the salary in request": false,
+				"Check that the u_salary_1_5_year in the response is equal to the salary*4 in request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the name in the response is equal to the name in request (manual enter)": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the age in the response is equal to the age in request (manual enter)": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check that the salary in the response is equal to the salary in request(manual enter)": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the name in the response is equal to the name in request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the age in the response is equal to the age in request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the salary in the response is equal to the salary in request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check that the u_salary_1_5_year in the response is equal to the salary*4 in request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check that the name in the response is equal to the name in request (manual enter)": true,
+					"Check that the age in the response is equal to the age in request (manual enter)": false,
+					"Check that the salary in the response is equal to the salary in request(manual enter)": true,
+					"Check that the name in the response is equal to the name in request": true,
+					"Check that the age in the response is equal to the age in request": true,
+					"Check that the salary in the response is equal to the salary in request": false,
+					"Check that the u_salary_1_5_year in the response is equal to the salary*4 in request": true
+				}
+			]
+		},
+		{
+			"id": "c0cde6a9-1bc2-45ff-a575-20be5a5f7544",
+			"name": "object_info_3",
+			"url": "http://162.55.220.72:5006/object_info_3?name=Sergei&age=23&salary=75000",
+			"time": 131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check that the name in the response is equal to the name in request": true,
+				"Check that the age in the response is equal to the age in request": true,
+				"Check that the salary in the response is equal to the salary in request": false,
+				"Check the \"dog\" have \"name\" parameter": true,
+				"Check the \"dog\" have \"age\" parameter": true,
+				"Check the 'name' have value 'Luky": true,
+				"Check the 'age' have value 4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the name in the response is equal to the name in request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the age in the response is equal to the age in request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the salary in the response is equal to the salary in request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check the \"dog\" have \"name\" parameter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the \"dog\" have \"age\" parameter": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the 'name' have value 'Luky": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the 'age' have value 4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				131
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check that the name in the response is equal to the name in request": true,
+					"Check that the age in the response is equal to the age in request": true,
+					"Check that the salary in the response is equal to the salary in request": false,
+					"Check the \"dog\" have \"name\" parameter": true,
+					"Check the \"dog\" have \"age\" parameter": true,
+					"Check the 'name' have value 'Luky": true,
+					"Check the 'age' have value 4": true
+				}
+			]
+		},
+		{
+			"id": "5c316324-b0f3-4a63-a8ab-9e070f3080a9",
+			"name": "object_info_4",
+			"url": "http://162.55.220.72:5006/object_info_4?name=Sergei&age=23&salary=75000",
+			"time": 131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check that the name in the response is equal to the name in request": true,
+				"Check that the age in the response is equal to the age in request": false,
+				"Check that the salary[0] in the response is equal to the salary in request": false,
+				"Check that the salary[1] in the response is equal to the salary*2 in request": false,
+				"Check that the salary[2] in the response is equal to the salary*3 in request": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the name in the response is equal to the name in request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that the age in the response is equal to the age in request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check that the salary[0] in the response is equal to the salary in request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check that the salary[1] in the response is equal to the salary*2 in request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check that the salary[2] in the response is equal to the salary*3 in request": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				131
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check that the name in the response is equal to the name in request": true,
+					"Check that the age in the response is equal to the age in request": false,
+					"Check that the salary[0] in the response is equal to the salary in request": false,
+					"Check that the salary[1] in the response is equal to the salary*2 in request": false,
+					"Check that the salary[2] in the response is equal to the salary*3 in request": false
+				}
+			]
+		},
+		{
+			"id": "7b478490-6206-4d27-a76d-b55aecd69ae6",
+			"name": "user_info_2",
+			"url": "http://162.55.220.72:5006/user_info_2",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check the responseJson have param start_qa_salary": true,
+				"Check the responseJson have param qa_salary_after_6_months": true,
+				"Check the responseJson have param qa_salary_after_12_months": true,
+				"Check the responseJson have param qa_salary_after_1.5_year": true,
+				"Check the responseJson have param qa_salary_after_3.5_years": true,
+				"Check the responseJson have param person": true,
+				"Check the 'start_qa_salary' is equal to salary from request": false,
+				"Check the 'qa_salary_after_6_months' is equal to salary from request * 2": true,
+				"Check the 'qa_salary_after_12_months' is equal to salary from request * 2.7": true,
+				"Check the 'qa_salary_after_1.5_year' is equal to salary from request * 3.3": true,
+				"Check the 'qa_salary_after_3.5_years' is equal to salary from request * 3.8": true,
+				"Check the u_name[1] in person is equal to salary from request": false,
+				"Check the u_age in person is equal to age from request": false,
+				"Check the 'u_salary_5_years' is equal to salary from request * 4.2": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the responseJson have param start_qa_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the responseJson have param qa_salary_after_6_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the responseJson have param qa_salary_after_12_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the responseJson have param qa_salary_after_1.5_year": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the responseJson have param qa_salary_after_3.5_years": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the responseJson have param person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the 'start_qa_salary' is equal to salary from request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check the 'qa_salary_after_6_months' is equal to salary from request * 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the 'qa_salary_after_12_months' is equal to salary from request * 2.7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the 'qa_salary_after_1.5_year' is equal to salary from request * 3.3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the 'qa_salary_after_3.5_years' is equal to salary from request * 3.8": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check the u_name[1] in person is equal to salary from request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check the u_age in person is equal to age from request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check the 'u_salary_5_years' is equal to salary from request * 4.2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check the responseJson have param start_qa_salary": true,
+					"Check the responseJson have param qa_salary_after_6_months": true,
+					"Check the responseJson have param qa_salary_after_12_months": true,
+					"Check the responseJson have param qa_salary_after_1.5_year": true,
+					"Check the responseJson have param qa_salary_after_3.5_years": true,
+					"Check the responseJson have param person": true,
+					"Check the 'start_qa_salary' is equal to salary from request": false,
+					"Check the 'qa_salary_after_6_months' is equal to salary from request * 2": true,
+					"Check the 'qa_salary_after_12_months' is equal to salary from request * 2.7": true,
+					"Check the 'qa_salary_after_1.5_year' is equal to salary from request * 3.3": true,
+					"Check the 'qa_salary_after_3.5_years' is equal to salary from request * 3.8": true,
+					"Check the u_name[1] in person is equal to salary from request": false,
+					"Check the u_age in person is equal to age from request": false,
+					"Check the 'u_salary_5_years' is equal to salary from request * 4.2": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 665,
+	"collection": {
+		"requests": [
+			{
+				"id": "6fa387c6-e39a-4acb-84ac-7edca2f65fbb",
+				"method": "GET"
+			},
+			{
+				"id": "ef99dda3-21ae-495f-8017-be80fd4146fc",
+				"method": "POST"
+			},
+			{
+				"id": "c0cde6a9-1bc2-45ff-a575-20be5a5f7544",
+				"method": "GET"
+			},
+			{
+				"id": "5c316324-b0f3-4a63-a8ab-9e070f3080a9",
+				"method": "GET"
+			},
+			{
+				"id": "7b478490-6206-4d27-a76d-b55aecd69ae6",
+				"method": "POST"
+			}
+		]
+	}
+}
